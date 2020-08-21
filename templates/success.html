@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Success!
+{% endblock %}
+
+{% block body %}
+    <div class="alert alert-success" role="alert">
+  Success!
+	</div>
+
+    <a href="/return-file-txt" target="_blank"><button type="button" class="btn btn-primary">Download TXT</button></a>
+    <!--<a href="/return-file-csv" target="_blank"><button type="button" class="btn btn-primary">Download CSV</button></a>-->
+    <a href="/return-file-json" target="_blank"><button type="button" class="btn btn-primary">Download JSON</button></a>
+    <a href="/"><button type="button" class="btn btn-secondary">Go Back</button></a>
+
+{% endblock %}
